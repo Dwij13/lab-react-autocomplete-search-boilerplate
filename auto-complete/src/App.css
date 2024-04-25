@@ -1,0 +1,56 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #373737;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #000000;
+  padding: 20px;
+  color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px; /* Added border-radius for a rounded appearance */
+}
+
+/* SearchBox styles */
+.search-Box {
+  position: relative;
+}
+
+input {
+  width: calc(100% - 20px); /* Adjusted width to account for padding */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #020202;
+  border-radius: 4px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  background-color: #000000;
+  z-index: 1;
+  width: calc(100% - 2px); /* Adjusted width to account for border */
+  border-bottom-left-radius: 4px; /* Added border-radius for a rounded appearance */
+  border-bottom-right-radius: 4px;
+  max-height: 500px; /* Added max-height for a scrollable dropdown */
+  overflow-y: auto; /* Added overflow-y for a scrollable dropdown */
+}
+
+li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: #cb2020;
+  border-radius: 4px; /* Added border-radius for hover effect */
+}
